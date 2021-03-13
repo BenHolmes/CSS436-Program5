@@ -13,9 +13,11 @@ in folder open wonders command line
 
 copy + paste the following
 
-```py -3 -m venv .venv
+```
+py -3 -m venv .venv
 .venv\scripts\activate
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 then 
 
