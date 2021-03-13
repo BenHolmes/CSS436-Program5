@@ -5,6 +5,8 @@ https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=cmd&pi
 
 https://www.tutorialspoint.com/flask/flask_quick_guide.htm
 
+this --> https://github.com/bhavaniravi/flask-tutorial/
+
 Kenneth Tran && Benjamin Holmes
 
 ****** COMPILATION INSTRUCTIONS
