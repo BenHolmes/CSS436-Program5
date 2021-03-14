@@ -21,7 +21,9 @@ copy + paste the following
 py -3 -m venv .venv
 .venv\scripts\activate
 pip install -r requirements.txt
+pip instal --pre azure-cosmos --user
 ```
+^^ not sure how necessary the --user element is of that last command but it is what I needed
 
 then 
 
