@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CSS436 Program 5</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Shippori+Mincho+B1:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='stylesheets/index.css') }}">
+
+</head>
+
+<body>
+    <h3>title text</h3>
+    <form action="/reservation" method="post">
+        <label>First Name</label>
+        <input type="text" name="firstName"></input>
+        <label>Last Name</label>
+        <input type="text" name="lastName"></input>
+        <label>Phone Number</label>
+        <input type="text" name="phoneNum"></input>
+        <label>Number of tables</label>
+        <input type="text" name="numTable"></input>
+        <input type="submit" value="Reserve Table(s)"></input>
+    </form>
+    <h4>Tweet about your reservation to TwitterDev!</h4>
+    <a href="https://twitter.com/intent/tweet?screen_name=TwitterDev&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @TwitterDev</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <p class="lead">{{query}}</p>
+</body>
+</html>
