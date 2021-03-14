@@ -9,6 +9,10 @@ this --> `https://github.com/bhavaniravi/flask-tutorial/`
 
 `https://stackoverflow.com/questions/37316791/proper-way-to-insert-html-into-flask`
 
+`https://docs.microsoft.com/en-us/azure/cosmos-db/create-sql-api-python`
+
+`https://github.com/Azure-Samples/azure-cosmos-db-python-getting-started`
+
 Kenneth Tran && Benjamin Holmes
 
 ****** COMPILATION INSTRUCTIONS
