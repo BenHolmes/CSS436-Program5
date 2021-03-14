@@ -28,7 +28,7 @@ container = database.create_container_if_not_exists(
 
 
 # Add items to the container
-reservation_items_to_create = [reservationData.get_andersen_family_item(), reservationData.get_johnson_family_item(), reservationData.get_smith_family_item(), reservationData.get_wakefield_family_item()]
+reservation_items_to_create = [reservationData.get_smith_reservation_item(), reservationData.get_johnson_reservation_item()]
 
  # <create_item>
 for reservation_item in reservation_items_to_create:
