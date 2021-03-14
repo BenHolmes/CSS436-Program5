@@ -5,13 +5,6 @@ table_service = tableService(account_name='myaccount', account_key='mykey')
 
 table_service = tableService(connection_string='DefaultEndpointsProtocol=https;AccountName=myaccount;AccountKey=mykey;TableEndpoint=myendpoint;')
 
-class res: 
-	def __init__(first, last, phone, table): 
-		self.first = first
-		self.last = last
-		self.phone = phone
-		self.table = table
-
 def sendReservation(first, last, phone, table): 
 	try: 
 		# IF THE TABLE NEEDS TO BE CREATED, CREATE WITH THIS LINE; COMMENT OUT OTHERWISE
